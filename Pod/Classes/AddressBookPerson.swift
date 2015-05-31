@@ -10,11 +10,11 @@ import AddressBook
 import UIKit
 
 public class AddressBookPerson: AddressBookRecord {
-    override init(record: ABRecord) {
+    public override init(record: ABRecord) {
         super.init(record: record)
     }
     
-    init() {
+    public init() {
         super.init(record: ABPersonCreate().takeRetainedValue())
     }
     
