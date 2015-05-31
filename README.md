@@ -29,6 +29,7 @@ switch (AddressBookManager.getAuthorizationStatus()) {
         // Restricted Access To AddressBook
     case .Unknown:
         // Access To AddressBook Unknown, Most Likely AddressBook Authorization Has Not Been Requested Yet
+}
 ```
 
 ##### Retrieving Contacts
@@ -149,6 +150,13 @@ abm.requestAuthorizationWithCompletion { (granted: Bool, error: CFError?) -> Voi
 }
 ```
 ![Contact-Screenshot](https://cloud.githubusercontent.com/assets/8670066/7900550/55c84ffe-072d-11e5-8b2e-3d3dadf9f6c5.png)
+
+##### Miscellaneous Methods
+
+- personCount - returns number of contacts in the address book
+- groupCount - returns number of groups in the address book
+- removeRecord - removes the record (AddressBookRecord) from the address book
+- hasUnsavedChanges - if there were any changes to the address book (additions, removal, etc...) that have not yet been saved
 
 ## Installation
 
