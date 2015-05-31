@@ -256,7 +256,7 @@ public class AddressBookPerson: AddressBookRecord {
                     ABAddressDictionary[key.getABAddressPropertyKey] = value
                 }
                 
-                result?.append(MultiValue(id: value.id, key: value.key!, value: NSDictionary(dictionary: ABAddressDictionary)))
+                result?.append(MultiValue(key: value.key!, value: NSDictionary(dictionary: ABAddressDictionary)))
             }
         }
         
@@ -276,7 +276,7 @@ public class AddressBookPerson: AddressBookRecord {
         if values != nil {
             result = []
             for value in values! {
-                result?.append(MultiValue(id: value.id, key: value.key!, value: NSString(string: value.value!)))
+                result?.append(MultiValue(key: value.key!, value: NSString(string: value.value!)))
             }
         }
         

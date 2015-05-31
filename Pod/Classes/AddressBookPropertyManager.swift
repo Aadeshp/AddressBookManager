@@ -70,7 +70,7 @@ class AddressBookPropertyManager: NSObject {
             if let value: T? = ABMultiValueCopyValueAtIndex(values, i)?.takeRetainedValue() as? T {
                 let id: Int = Int(ABMultiValueGetIdentifierAtIndex(values, i))
                 let key: String? = ABMultiValueCopyLabelAtIndex(values, i).takeRetainedValue() as String
-                let multiValue: MultiValue<T> = MultiValue(id: id, key: key!, value: value)
+                let multiValue: MultiValue<T> = MultiValue(key: key!, value: value)
                 
                 propertyValues?.append(multiValue)
             }
@@ -106,7 +106,7 @@ class AddressBookPropertyManager: NSObject {
                     newValue[convertor(k as! T) as U] = v
                 }
                 
-                let multiValue: MultiValue<Dictionary<U, V>> = MultiValue(id: id, key: key!, value: newValue)
+                let multiValue: MultiValue<Dictionary<U, V>> = MultiValue(key: key!, value: newValue)
                 propertyValues?.append(multiValue)
             }
         }

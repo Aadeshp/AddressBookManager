@@ -27,12 +27,10 @@ public class AddressBookRecord: NSObject {
 }
 
 public struct MultiValue<T> {
-    public var id: Int
     public var key: String?
     public var value: T?
     
-    public init(id: Int, key: String, value: T?) {
-        self.id = id
+    public init(key: String, value: T?) {
         self.key = key
         self.value = value
     }
