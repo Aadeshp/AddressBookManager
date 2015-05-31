@@ -9,8 +9,6 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
-
 ## Installation
 
 AddressBookManager is available through [CocoaPods](http://cocoapods.org). To install
@@ -19,10 +17,13 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "AddressBookManager"
 ```
+OR
+
+You can simply clone this repository and drag the files into your project.
 
 ## Author
 
-aadesh, aadeshp95@gmail.com
+Aadesh Patel, aadeshp95@gmail.com
 
 ## License
 
