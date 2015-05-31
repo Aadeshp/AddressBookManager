@@ -31,7 +31,7 @@ public struct MultiValue<T> {
     public var key: String?
     public var value: T?
     
-    init(id: Int, key: String, value: T?) {
+    public init(id: Int, key: String, value: T?) {
         self.id = id
         self.key = key
         self.value = value

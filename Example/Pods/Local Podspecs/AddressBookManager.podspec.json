@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/aadeshp/AddressBookManager.git",
-    "tag": "0.1.0"
+    "tag": "v0.1.0"
   },
   "platforms": {
     "ios": "8.0"

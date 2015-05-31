@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AddressBookManager: 7d1b96c6f4eb3dc4c7caef5fa2c890f525932dea
+  AddressBookManager: a25228705f10326e640c2976d5ee5847235c4aa9
 
 COCOAPODS: 0.37.2
