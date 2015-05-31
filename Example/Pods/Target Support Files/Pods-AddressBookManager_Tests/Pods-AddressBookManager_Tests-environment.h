@@ -10,5 +10,5 @@
 #define COCOAPODS_POD_AVAILABLE_AddressBookManager
 #define COCOAPODS_VERSION_MAJOR_AddressBookManager 0
 #define COCOAPODS_VERSION_MINOR_AddressBookManager 1
-#define COCOAPODS_VERSION_PATCH_AddressBookManager 0
+#define COCOAPODS_VERSION_PATCH_AddressBookManager 1
 

@@ -44,8 +44,40 @@ public class AddressBookManager: NSObject {
     /// Returns all contacts as an array of AddressBookPerson instances
     public var allContacts: [AddressBookPerson]? {
         get {
-            return AddressBookPerson.convertToSelf(ABAddressBookCopyArrayOfAllPeople(self.addressBook).takeRetainedValue())
+            return AddressBookPerson.convertToSelf(ABAddressBookCopyArrayOfAllPeople(self.addressBook)?.takeRetainedValue())
         }
+    }
+    
+    public func retrieveAllContactsInQueue(
+        queue: dispatch_queue_t,
+        completion: (([AddressBookPerson]?, CFError?) -> Void)?)
+    {
+        self.retrieveAllContactsInQueue(queue,
+            sort: nil,
+            filter: nil,
+            completion: completion)
+    }
+    
+    public func retrieveAllContactsInQueue(
+        queue: dispatch_queue_t,
+        sort: ((AddressBookPerson, AddressBookPerson) -> Bool)?,
+        completion: (([AddressBookPerson]?, CFError?) -> Void)?)
+    {
+        self.retrieveAllContactsInQueue(queue,
+            sort: sort,
+            filter: nil,
+            completion: completion)
+    }
+    
+    public func retrieveAllContactsInQueue(
+        queue: dispatch_queue_t,
+        filter: ((AddressBookPerson) -> Bool)?,
+        completion: (([AddressBookPerson]?, CFError?) -> Void)?)
+    {
+        self.retrieveAllContactsInQueue(queue,
+            sort: nil,
+            filter: filter,
+            completion: completion)
     }
     
     /**
@@ -78,7 +110,7 @@ public class AddressBookManager: NSObject {
                         peopleArray = AddressBookPerson.convertToSelf(people)
                         
                         if (filter != nil) {
-                            peopleArray?.filter(filter!)
+                            peopleArray = peopleArray?.filter(filter!)
                         }
                         
                         if (sort != nil) {
@@ -155,8 +187,23 @@ public class AddressBookManager: NSObject {
     /**
         :returns: Current authorization status for address book
     */
-    public class func getAuthorizationStatus() -> ABAuthorizationStatus {
-        return ABAddressBookGetAuthorizationStatus()
+    public class func getAuthorizationStatus() -> AddressBookAuthorizationStatus {
+        switch (ABAddressBookGetAuthorizationStatus()) {
+            case ABAuthorizationStatus.Authorized:
+                return .Authorized
+            case ABAuthorizationStatus.Denied:
+                return .Denied
+            case ABAuthorizationStatus.Restricted:
+                return .Restricted
+            default:
+                return .Unknown
+        }
     }
-    
+}
+
+public enum AddressBookAuthorizationStatus {
+    case Authorized
+    case Denied
+    case Restricted
+    case Unknown
 }

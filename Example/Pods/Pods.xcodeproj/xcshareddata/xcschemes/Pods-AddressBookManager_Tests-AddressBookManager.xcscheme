@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DF1ADA0EB368D29E3E832067"
+               BlueprintIdentifier = "9552EFB4A53D5B1A650E14A0"
                BuildableName = "AddressBookManager.framework"
                BlueprintName = "Pods-AddressBookManager_Tests-AddressBookManager"
                ReferencedContainer = "container:Pods.xcodeproj">
