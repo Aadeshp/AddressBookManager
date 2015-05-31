@@ -105,11 +105,11 @@ abm.requestAuthorizationWithCompletion { (granted: Bool, error: CFError?) -> Voi
     person.firstName = "Bob"
     person.lastName = "Smith"
             
-    var personalEmail = MultiValue(id: 0, key: "personal", value: "bob@mail.com")
+    var personalEmail = MultiValue(key: "personal", value: "bob@mail.com")
     person.emails = [personalEmail]
             
-    var homePhoneNumber = MultiValue(id: 0, key: "home", value: "5555555555")
-    var mobilePhoneNumber = MultiValue(id: 1, key: "mobile", value: "1234567890")
+    var homePhoneNumber = MultiValue(key: "home", value: "5555555555")
+    var mobilePhoneNumber = MultiValue(key: "mobile", value: "1234567890")
     person.phoneNumbers = [homePhoneNumber, mobilePhoneNumber]
             
     person.profilePicture = UIImage(named: "bob.png")
@@ -121,7 +121,7 @@ abm.requestAuthorizationWithCompletion { (granted: Bool, error: CFError?) -> Voi
     homeAddress[AddressProperty.ZipCode] = "00000"
     homeAddress[AddressProperty.Country] = "USA"
             
-    var homeAddressValue = MultiValue(id: 0, key: "home", value: homeAddress)
+    var homeAddressValue = MultiValue(key: "home", value: homeAddress)
     person.addresses = [homeAddressValue]
             
     var dateFormatter: NSDateFormatter = NSDateFormatter()
@@ -134,14 +134,14 @@ abm.requestAuthorizationWithCompletion { (granted: Bool, error: CFError?) -> Voi
     person.department = "Software"
     person.note = "Some Note Here"
             
-    var personalURL = MultiValue(id: 0, key: "personal", value: "https://somewebsite")
+    var personalURL = MultiValue(key: "personal", value: "https://somewebsite")
     person.urls = [personalURL]
             
     person.prefix = "Mr"
     person.suffix = "Jr"
     person.middleName = "Roger"
             
-    var anniversaryDate = MultiValue(id: 0, key: "anniversary", value: dateFormatter.dateFromString("02/02/2000"))
+    var anniversaryDate = MultiValue(key: "anniversary", value: dateFormatter.dateFromString("02/02/2000"))
     person.dates = [anniversaryDate]
             
     abm?.addRecord(person)
