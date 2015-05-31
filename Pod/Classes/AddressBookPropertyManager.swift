@@ -33,9 +33,9 @@ class AddressBookPropertyManager: NSObject {
         :returns: Single value of the property
     */
     class func getSingleProperty<T>(#record: ABRecord, property: ABPropertyID) -> T? {
-        var value: AnyObject? = ABRecordCopyValue(record, property).takeRetainedValue()
+        var propertyValue: AnyObject? = ABRecordCopyValue(record, property)?.takeRetainedValue()
         
-        return value as? T
+        return propertyValue as? T
     }
     
     /**
@@ -62,20 +62,21 @@ class AddressBookPropertyManager: NSObject {
         :returns: Value of property as an array of multi value instances
     */
     class func getMultiValueProperty<T>(#record: ABRecord, property: ABPropertyID) -> Array<MultiValue<T>>? {
-        var arrValues: Array<MultiValue<T>> = Array<MultiValue<T>>()
+        var propertyValues: Array<MultiValue<T>>?
         let values: ABMultiValue? = self.getSingleProperty(record: record, property: property)
         
+        propertyValues = []
         for i: Int in 0..<(ABMultiValueGetCount(values)) {
-            if let value: T? = ABMultiValueCopyValueAtIndex(values, i).takeRetainedValue() as? T {
+            if let value: T? = ABMultiValueCopyValueAtIndex(values, i)?.takeRetainedValue() as? T {
                 let id: Int = Int(ABMultiValueGetIdentifierAtIndex(values, i))
                 let key: String? = ABMultiValueCopyLabelAtIndex(values, i).takeRetainedValue() as String
                 let multiValue: MultiValue<T> = MultiValue(id: id, key: key!, value: value)
                 
-                arrValues.append(multiValue)
+                propertyValues?.append(multiValue)
             }
         }
         
-        return arrValues.count > 0 ? arrValues : nil
+        return propertyValues
     }
     
     /**
@@ -91,10 +92,10 @@ class AddressBookPropertyManager: NSObject {
         property: ABPropertyID,
         convertor: (T) -> U) -> Array<MultiValue<Dictionary<U, V>>>?
     {
-        var arrValues: Array<MultiValue<Dictionary<U, V>>>?
+        var propertyValues: Array<MultiValue<Dictionary<U, V>>>?
         let values: ABMultiValue? = self.getSingleProperty(record: record, property: property)
         
-        arrValues = []
+        propertyValues = []
         for i: Int in 0..<(ABMultiValueGetCount(values)) {
             if let value: Dictionary<String, V>? = ABMultiValueCopyValueAtIndex(values, i).takeRetainedValue() as? Dictionary<String, V> {
                 let id: Int = Int(ABMultiValueGetIdentifierAtIndex(values, i))
@@ -106,11 +107,11 @@ class AddressBookPropertyManager: NSObject {
                 }
                 
                 let multiValue: MultiValue<Dictionary<U, V>> = MultiValue(id: id, key: key!, value: newValue)
-                arrValues?.append(multiValue)
+                propertyValues?.append(multiValue)
             }
         }
         
-        return arrValues?.count > 0 ? arrValues : nil
+        return propertyValues
     }
 }
 
@@ -118,12 +119,12 @@ class AddressBookPropertyManager: NSObject {
     AddressPropertys to access components of an address
 */
 public enum AddressProperty {
-    case AddressPropertyStreet
-    case AddressPropertyCity
-    case AddressPropertyState
-    case AddressPropertyZipCode
-    case AddressPropertyCountry
-    case AddressPropertyCountryCode
+    case Street
+    case City
+    case State
+    case ZipCode
+    case Country
+    case CountryCode
 
     
     /**
@@ -134,17 +135,17 @@ public enum AddressProperty {
     init(key: String) {
         switch (key) {
             case kABPersonAddressCityKey as! String:
-                self = .AddressPropertyCity
+                self = .City
             case kABPersonAddressStateKey as! String:
-                self = .AddressPropertyState
+                self = .State
             case kABPersonAddressZIPKey as! String:
-                self = .AddressPropertyZipCode
+                self = .ZipCode
             case kABPersonAddressCountryKey as! String:
-                self = .AddressPropertyCountry
+                self = .Country
             case kABPersonAddressCountryCodeKey as! String:
-                self = .AddressPropertyCountryCode
+                self = .CountryCode
             default:
-                self = .AddressPropertyStreet
+                self = .Street
         }
     }
     
@@ -156,15 +157,15 @@ public enum AddressProperty {
     var getABAddressPropertyKey: String {
         get {
             switch (self) {
-            case .AddressPropertyCity:
+            case .City:
                 return kABPersonAddressCityKey as! String
-            case .AddressPropertyState:
+            case .State:
                 return kABPersonAddressStateKey as! String
-            case .AddressPropertyZipCode:
+            case .ZipCode:
                 return kABPersonAddressZIPKey as! String
-            case .AddressPropertyCountry:
+            case .Country:
                 return kABPersonAddressCountryKey as! String
-            case .AddressPropertyCountryCode:
+            case .CountryCode:
                 return kABPersonAddressCountryCodeKey as! String
             default:
                 return kABPersonAddressStreetKey as! String
