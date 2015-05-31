@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'AddressBookManager_Example', :exclusive => true do
+  pod "AddressBookManager", :path => "../"
+end
+
+target 'AddressBookManager_Tests', :exclusive => true do
+  pod "AddressBookManager", :path => "../"
+
+  
+end
