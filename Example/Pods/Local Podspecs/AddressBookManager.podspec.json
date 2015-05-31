@@ -1,8 +1,8 @@
 {
   "name": "AddressBookManager",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "Swift Wrapper Class Of Apple's AddressBook Framework",
-  "description": "                       Swift Wrapper Class Of Apple's AddressBook Framework\n\n                       * Markdown format.\n                       * Don't worry about the indent, we strip it!\n",
+  "description": "                       Swift Wrapper Class Of Apple's AddressBook Framework\n",
   "homepage": "https://github.com/aadeshp/AddressBookManager",
   "license": "MIT",
   "authors": {
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/aadeshp/AddressBookManager.git",
-    "tag": "v0.1.0"
+    "tag": "v0.1.1"
   },
   "platforms": {
     "ios": "8.0"

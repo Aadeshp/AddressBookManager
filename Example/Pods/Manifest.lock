@@ -1,5 +1,5 @@
 PODS:
-  - AddressBookManager (0.1.0)
+  - AddressBookManager (0.1.1)
 
 DEPENDENCIES:
   - AddressBookManager (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AddressBookManager: a25228705f10326e640c2976d5ee5847235c4aa9
+  AddressBookManager: 70629fe82a0cfcc8a7593a5b926feb4cda870cd2
 
 COCOAPODS: 0.37.2

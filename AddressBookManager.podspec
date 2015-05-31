@@ -13,6 +13,10 @@ Pod::Spec.new do |s|
   s.summary          = "Swift Wrapper Class Of Apple's AddressBook Framework"
   s.description      = <<-DESC
                        Swift Wrapper Class Of Apple's AddressBook Framework
+
+                       Easy Usage To:
+                       * Retrieve Contacts
+                       * Add Contacts
                        DESC
   s.homepage         = "https://github.com/aadeshp/AddressBookManager"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"

@@ -7,270 +7,270 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		126EFF7859A2C9B40296BBCC /* AddressBookPropertyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1602D4097819F718E71C9E48 /* AddressBookPropertyManager.swift */; };
-		2AC796DC262FC717E06B47B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AF1DD84D56B596CE9E3D28C /* Foundation.framework */; };
-		30F77556A39BEB2220D5B4E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AF1DD84D56B596CE9E3D28C /* Foundation.framework */; };
-		319E8425CF9D3721D00273F5 /* Pods-AddressBookManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC9F426CF6643C87FBFD888 /* Pods-AddressBookManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		39FEC2E8E8A5E596BC85B8E5 /* Pods-AddressBookManager_Tests-AddressBookManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBD2EEE3FDE9B66B8BF1D96 /* Pods-AddressBookManager_Tests-AddressBookManager-dummy.m */; };
-		40B463787A72EC446D5489E6 /* Pods-AddressBookManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C43ABD14F3302B74ED11174 /* Pods-AddressBookManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		41D11B84B86EF3925DC53E2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AF1DD84D56B596CE9E3D28C /* Foundation.framework */; };
-		630900055E6FE2E9EB920C72 /* AddressBookRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4948BDBB270EB344F3D742 /* AddressBookRecord.swift */; };
-		6F0ECDFCAFE971DECAA5706D /* AddressBookRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4948BDBB270EB344F3D742 /* AddressBookRecord.swift */; };
-		787B87D6538F4B36BB560C05 /* AddressBookManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1951E350687A20708D1B6A /* AddressBookManager.swift */; };
-		7EFC8A7B850A28DB0C675932 /* Pods-AddressBookManager_Example-AddressBookManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F83461C415C41C2A6D9CA24 /* Pods-AddressBookManager_Example-AddressBookManager-dummy.m */; };
-		A4DA5485DE0089F1111BBBBD /* AddressBookPropertyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1602D4097819F718E71C9E48 /* AddressBookPropertyManager.swift */; };
-		B7EDDAC147EF473C2FC6E0B3 /* AddressBookPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4332E0FE382AA9AC9F9F893 /* AddressBookPerson.swift */; };
-		B95B085E30DFD7B943163CE6 /* AddressBookManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1951E350687A20708D1B6A /* AddressBookManager.swift */; };
-		C1E1697B42685DADD87906A9 /* Pods-AddressBookManager_Example-AddressBookManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5230855C42B09A3EFAF90039 /* Pods-AddressBookManager_Example-AddressBookManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D0F72437B4C9F015E99D4E9D /* Pods-AddressBookManager_Tests-AddressBookManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 437BAAA7F9A075C821D1C073 /* Pods-AddressBookManager_Tests-AddressBookManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E26B1B9BECC83FE4C07785BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AF1DD84D56B596CE9E3D28C /* Foundation.framework */; };
-		E5770371351C07A6C566537E /* AddressBookPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4332E0FE382AA9AC9F9F893 /* AddressBookPerson.swift */; };
-		EC8E7890FCD485E7E21CB78C /* Pods-AddressBookManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2EDC4AAA64C2B333594729 /* Pods-AddressBookManager_Tests-dummy.m */; };
-		EE58863E3F71F97B11F38646 /* Pods-AddressBookManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AC2A4D4112FB515A7A841F /* Pods-AddressBookManager_Example-dummy.m */; };
+		2A852037F4646056DDC8875A /* AddressBookPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0E1A4F204311AB179C8FA6 /* AddressBookPerson.swift */; };
+		2D3AFC0CCA0472092DE8651D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65763CDB84E6E07892FFED6D /* Foundation.framework */; };
+		3295BB6D35530A598BAA2780 /* Pods-AddressBookManager_Tests-AddressBookManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1C95C3A9A586ED4BB1E9703 /* Pods-AddressBookManager_Tests-AddressBookManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46406B052CD6ACE868B5AAD3 /* Pods-AddressBookManager_Tests-AddressBookManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46FCE189A34F8EEDE261DE54 /* Pods-AddressBookManager_Tests-AddressBookManager-dummy.m */; };
+		4C3562A1129B5CB4FBD26889 /* Pods-AddressBookManager_Example-AddressBookManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F0F1B3C14B60CFA81813BDF /* Pods-AddressBookManager_Example-AddressBookManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		583A28F8B4A8BC40EE30B31E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65763CDB84E6E07892FFED6D /* Foundation.framework */; };
+		63712D44726EB41110ACAE61 /* Pods-AddressBookManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 686D96E7F151C51D5D9602DD /* Pods-AddressBookManager_Example-dummy.m */; };
+		71DD1E91A8C580A83DA272DA /* AddressBookManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8795D7670FB4AA2133DDCDC /* AddressBookManager.swift */; };
+		74F9D527033D7507330C6324 /* Pods-AddressBookManager_Example-AddressBookManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF14B7ABD543E8DF70AD850 /* Pods-AddressBookManager_Example-AddressBookManager-dummy.m */; };
+		79099C3ED9D078F72A8D50F6 /* Pods-AddressBookManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CA90B6758B551F3F1501ACE /* Pods-AddressBookManager_Tests-dummy.m */; };
+		7CF8217470AA300D76914C8B /* AddressBookPropertyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FCF6B3DC52591F6569FB37 /* AddressBookPropertyManager.swift */; };
+		7E921131FF310BAEA869CB99 /* AddressBookRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEDE487B8B37AC3DD770D3B /* AddressBookRecord.swift */; };
+		7F32768C2203E47908F20109 /* Pods-AddressBookManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC79DAE525C1BDC04AFD92D1 /* Pods-AddressBookManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		863CF9A611A2FCFCCD0E4FB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65763CDB84E6E07892FFED6D /* Foundation.framework */; };
+		B4F51C67A0EDA3F82A7C73C9 /* AddressBookRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEDE487B8B37AC3DD770D3B /* AddressBookRecord.swift */; };
+		B6D6F77DDFE1786C53F9D13C /* AddressBookPropertyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FCF6B3DC52591F6569FB37 /* AddressBookPropertyManager.swift */; };
+		C14F2BB762B3CCCA2A87CBFF /* AddressBookManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8795D7670FB4AA2133DDCDC /* AddressBookManager.swift */; };
+		C7F69DA0D524DBCAA507A6FB /* Pods-AddressBookManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60A6C7939E509B347A8A05ED /* Pods-AddressBookManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAE833DB0FC8BCA82181FF22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65763CDB84E6E07892FFED6D /* Foundation.framework */; };
+		FD0948E458D1B344F7403FD2 /* AddressBookPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0E1A4F204311AB179C8FA6 /* AddressBookPerson.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A17A48F045AB290B09C63940 /* PBXContainerItemProxy */ = {
+		730EA46C5034BE5DED2C61F0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 59CBD1EFE213F7850B60963F /* Project object */;
+			containerPortal = 474F8CB29F1DD6A06605F285 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A84CD8720030BD61C8E3BCF0;
-			remoteInfo = "Pods-AddressBookManager_Tests-AddressBookManager";
-		};
-		EA09B0EDAF887C0B72FBB896 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 59CBD1EFE213F7850B60963F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FDB8BF44767CE6460D195969;
+			remoteGlobalIDString = 4D1B927676AD049A1AF63CC7;
 			remoteInfo = "Pods-AddressBookManager_Example-AddressBookManager";
+		};
+		9D8772CF897CE73CFD9BA063 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 474F8CB29F1DD6A06605F285 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9552EFB4A53D5B1A650E14A0;
+			remoteInfo = "Pods-AddressBookManager_Tests-AddressBookManager";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B86DF1532D47D371458723C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		11A3B77B58E781A8CC2AB356 /* Pods-AddressBookManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AddressBookManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1602D4097819F718E71C9E48 /* AddressBookPropertyManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddressBookPropertyManager.swift; sourceTree = "<group>"; };
-		1A753C735DFAE016EDC89634 /* Pods-AddressBookManager_Tests-AddressBookManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-AddressBookManager_Tests-AddressBookManager-prefix.pch"; path = "../Pods-AddressBookManager_Tests-AddressBookManager/Pods-AddressBookManager_Tests-AddressBookManager-prefix.pch"; sourceTree = "<group>"; };
-		1AF1DD84D56B596CE9E3D28C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		21F0CB24EF6783A3CA95E98F /* Pods-AddressBookManager_Example-AddressBookManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AddressBookManager_Example-AddressBookManager.xcconfig"; sourceTree = "<group>"; };
-		2562339EBF79F4229BF9E213 /* AddressBookManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AddressBookManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C43ABD14F3302B74ED11174 /* Pods-AddressBookManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AddressBookManager_Tests-umbrella.h"; sourceTree = "<group>"; };
-		2D2EDC4AAA64C2B333594729 /* Pods-AddressBookManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AddressBookManager_Tests-dummy.m"; sourceTree = "<group>"; };
-		2F83461C415C41C2A6D9CA24 /* Pods-AddressBookManager_Example-AddressBookManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AddressBookManager_Example-AddressBookManager-dummy.m"; sourceTree = "<group>"; };
-		3E8A2A3FB737B4386740E0E6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		437BAAA7F9A075C821D1C073 /* Pods-AddressBookManager_Tests-AddressBookManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-AddressBookManager_Tests-AddressBookManager-umbrella.h"; path = "../Pods-AddressBookManager_Tests-AddressBookManager/Pods-AddressBookManager_Tests-AddressBookManager-umbrella.h"; sourceTree = "<group>"; };
-		43B81B38FD9A8E2CC3C446F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-AddressBookManager_Tests-AddressBookManager/Info.plist"; sourceTree = "<group>"; };
-		483F982F62A9AEE2B5D38A10 /* Pods-AddressBookManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AddressBookManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4B4948BDBB270EB344F3D742 /* AddressBookRecord.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddressBookRecord.swift; sourceTree = "<group>"; };
-		4BE1155A9238FCD881BDA72D /* AddressBookManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AddressBookManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F3EB99516CA764AEB76DF75 /* Pods-AddressBookManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AddressBookManager_Example-resources.sh"; sourceTree = "<group>"; };
-		5230855C42B09A3EFAF90039 /* Pods-AddressBookManager_Example-AddressBookManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AddressBookManager_Example-AddressBookManager-umbrella.h"; sourceTree = "<group>"; };
-		599C9BE9928BEBFC744AF24B /* Pods-AddressBookManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AddressBookManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		5DC9F426CF6643C87FBFD888 /* Pods-AddressBookManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AddressBookManager_Example-umbrella.h"; sourceTree = "<group>"; };
-		5F2F097BC515CB019D5B4FE8 /* Pods-AddressBookManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AddressBookManager_Tests-resources.sh"; sourceTree = "<group>"; };
-		622CB9111950A23136400F1D /* Pods-AddressBookManager_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AddressBookManager_Tests-environment.h"; sourceTree = "<group>"; };
-		63A71E1B6A534EC4FB93C098 /* Pods-AddressBookManager_Example-AddressBookManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AddressBookManager_Example-AddressBookManager.modulemap"; sourceTree = "<group>"; };
-		6642377F9D2A801806F1B9AC /* Pods_AddressBookManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AddressBookManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		693926BD5FCCC53BFBF474F8 /* Pods-AddressBookManager_Example-AddressBookManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AddressBookManager_Example-AddressBookManager-prefix.pch"; sourceTree = "<group>"; };
-		6D3FFFBE188E3787867B3A57 /* Pods-AddressBookManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AddressBookManager_Example.release.xcconfig"; sourceTree = "<group>"; };
-		70B34E40E61D66CE23EFBAF0 /* Pods-AddressBookManager_Tests-AddressBookManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-AddressBookManager_Tests-AddressBookManager.modulemap"; path = "../Pods-AddressBookManager_Tests-AddressBookManager/Pods-AddressBookManager_Tests-AddressBookManager.modulemap"; sourceTree = "<group>"; };
-		73297B558C79EA93E082E6C8 /* Pods-AddressBookManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AddressBookManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		780955484401FCB4FDB76B86 /* Pods-AddressBookManager_Tests-AddressBookManager-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressBookManager_Tests-AddressBookManager-Private.xcconfig"; path = "../Pods-AddressBookManager_Tests-AddressBookManager/Pods-AddressBookManager_Tests-AddressBookManager-Private.xcconfig"; sourceTree = "<group>"; };
-		8139DCDB11525E4C28757A26 /* Pods-AddressBookManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AddressBookManager_Example.modulemap"; sourceTree = "<group>"; };
-		96AC2A4D4112FB515A7A841F /* Pods-AddressBookManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AddressBookManager_Example-dummy.m"; sourceTree = "<group>"; };
-		9722FDBAB79066DD1F590247 /* Pods-AddressBookManager_Tests-AddressBookManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressBookManager_Tests-AddressBookManager.xcconfig"; path = "../Pods-AddressBookManager_Tests-AddressBookManager/Pods-AddressBookManager_Tests-AddressBookManager.xcconfig"; sourceTree = "<group>"; };
-		A392F4EDDD6103AA9377F99B /* Pods-AddressBookManager_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AddressBookManager_Example-environment.h"; sourceTree = "<group>"; };
-		A8886F3CEA64FB737647FBFE /* Pods-AddressBookManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AddressBookManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		AA15463F4B8C360D98888F6C /* Pods-AddressBookManager_Example-AddressBookManager-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AddressBookManager_Example-AddressBookManager-Private.xcconfig"; sourceTree = "<group>"; };
-		BA4BD174671094B1CF7C48C2 /* Pods-AddressBookManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AddressBookManager_Example-frameworks.sh"; sourceTree = "<group>"; };
-		BEBD2EEE3FDE9B66B8BF1D96 /* Pods-AddressBookManager_Tests-AddressBookManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-AddressBookManager_Tests-AddressBookManager-dummy.m"; path = "../Pods-AddressBookManager_Tests-AddressBookManager/Pods-AddressBookManager_Tests-AddressBookManager-dummy.m"; sourceTree = "<group>"; };
-		CADDED4053E947E46C099781 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		CE94F761BA05672D338170E7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D30D42078E1501C606C90942 /* Pods-AddressBookManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AddressBookManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DA8A1337576D7ED5771ED37A /* Pods-AddressBookManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AddressBookManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E4332E0FE382AA9AC9F9F893 /* AddressBookPerson.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddressBookPerson.swift; sourceTree = "<group>"; };
-		E92E61C115B7AD3C6C676703 /* Pods_AddressBookManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AddressBookManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3779B1D5729D0D2DFADD921 /* Pods-AddressBookManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AddressBookManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		FF1951E350687A20708D1B6A /* AddressBookManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddressBookManager.swift; sourceTree = "<group>"; };
-		FFCB524C2BB08D0790F5A7D5 /* Pods-AddressBookManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AddressBookManager_Tests.modulemap"; sourceTree = "<group>"; };
+		0643A8223D93B1AD240B59C7 /* Pods-AddressBookManager_Example-AddressBookManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AddressBookManager_Example-AddressBookManager.modulemap"; sourceTree = "<group>"; };
+		09F509F88F809634032CAD8A /* Pods-AddressBookManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AddressBookManager_Tests.modulemap"; sourceTree = "<group>"; };
+		107F1ED303CE0BE1A941597B /* Pods-AddressBookManager_Example-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AddressBookManager_Example-environment.h"; sourceTree = "<group>"; };
+		12CA3FFB9CA4E6D800FD0587 /* Pods-AddressBookManager_Tests-AddressBookManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-AddressBookManager_Tests-AddressBookManager-prefix.pch"; path = "../Pods-AddressBookManager_Tests-AddressBookManager/Pods-AddressBookManager_Tests-AddressBookManager-prefix.pch"; sourceTree = "<group>"; };
+		1FF14B7ABD543E8DF70AD850 /* Pods-AddressBookManager_Example-AddressBookManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AddressBookManager_Example-AddressBookManager-dummy.m"; sourceTree = "<group>"; };
+		238E06B56B14E4384F8267B8 /* Pods-AddressBookManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AddressBookManager_Example.modulemap"; sourceTree = "<group>"; };
+		2EEDE487B8B37AC3DD770D3B /* AddressBookRecord.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddressBookRecord.swift; sourceTree = "<group>"; };
+		347C64976E7B097DB0F8966A /* Pods-AddressBookManager_Example-AddressBookManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AddressBookManager_Example-AddressBookManager.xcconfig"; sourceTree = "<group>"; };
+		34C97339750F29D12EA0ACF1 /* AddressBookManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AddressBookManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38E06EAC7622C3B90C97E77B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AF0A9EBE503EA4A4DAFA178 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41EE7468E1100B378103D84D /* Pods-AddressBookManager_Tests-AddressBookManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-AddressBookManager_Tests-AddressBookManager.modulemap"; path = "../Pods-AddressBookManager_Tests-AddressBookManager/Pods-AddressBookManager_Tests-AddressBookManager.modulemap"; sourceTree = "<group>"; };
+		42F0731C22CD597B0FE95DBE /* Pods-AddressBookManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AddressBookManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		46FCE189A34F8EEDE261DE54 /* Pods-AddressBookManager_Tests-AddressBookManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-AddressBookManager_Tests-AddressBookManager-dummy.m"; path = "../Pods-AddressBookManager_Tests-AddressBookManager/Pods-AddressBookManager_Tests-AddressBookManager-dummy.m"; sourceTree = "<group>"; };
+		4CA90B6758B551F3F1501ACE /* Pods-AddressBookManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AddressBookManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		4E0E1A4F204311AB179C8FA6 /* AddressBookPerson.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddressBookPerson.swift; sourceTree = "<group>"; };
+		4F0F1B3C14B60CFA81813BDF /* Pods-AddressBookManager_Example-AddressBookManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AddressBookManager_Example-AddressBookManager-umbrella.h"; sourceTree = "<group>"; };
+		50D7C4F44587C733F6345121 /* Pods-AddressBookManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AddressBookManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5CF6A342C089613B1F1F7346 /* AddressBookManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AddressBookManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60A6C7939E509B347A8A05ED /* Pods-AddressBookManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AddressBookManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		65763CDB84E6E07892FFED6D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		686D96E7F151C51D5D9602DD /* Pods-AddressBookManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AddressBookManager_Example-dummy.m"; sourceTree = "<group>"; };
+		69459E83BEC412B4C2810D56 /* Pods-AddressBookManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AddressBookManager_Example-resources.sh"; sourceTree = "<group>"; };
+		72FCF6B3DC52591F6569FB37 /* AddressBookPropertyManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddressBookPropertyManager.swift; sourceTree = "<group>"; };
+		74698DC460A553BF177DBCFB /* Pods_AddressBookManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AddressBookManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7703A72C2382DDF6B17569BF /* Pods_AddressBookManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AddressBookManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86071803A6FE00D9DC49EE18 /* Pods-AddressBookManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AddressBookManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		91C0CE55C4698CB15FEA6AFF /* Pods-AddressBookManager_Example-AddressBookManager-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AddressBookManager_Example-AddressBookManager-Private.xcconfig"; sourceTree = "<group>"; };
+		99185D3165D3892EA3BD9165 /* Pods-AddressBookManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AddressBookManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9A206498C74B2EECB89CC8B0 /* Pods-AddressBookManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AddressBookManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A5198CDCF5705BB8D9F4ECD3 /* Pods-AddressBookManager_Example-AddressBookManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AddressBookManager_Example-AddressBookManager-prefix.pch"; sourceTree = "<group>"; };
+		A6C94BC04F3E8C93A5C4962B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B37CF970159079408A5B1A95 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B683E72CFB9D3300A6EF2515 /* Pods-AddressBookManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AddressBookManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA00978951CDD3F99B464715 /* Pods-AddressBookManager_Tests-AddressBookManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressBookManager_Tests-AddressBookManager.xcconfig"; path = "../Pods-AddressBookManager_Tests-AddressBookManager/Pods-AddressBookManager_Tests-AddressBookManager.xcconfig"; sourceTree = "<group>"; };
+		BEC99D9E721F9F29B3E89A98 /* Pods-AddressBookManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AddressBookManager_Tests-resources.sh"; sourceTree = "<group>"; };
+		BED20A41DB363D3FCCF7434C /* Pods-AddressBookManager_Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AddressBookManager_Tests-environment.h"; sourceTree = "<group>"; };
+		C8795D7670FB4AA2133DDCDC /* AddressBookManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddressBookManager.swift; sourceTree = "<group>"; };
+		CC79DAE525C1BDC04AFD92D1 /* Pods-AddressBookManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AddressBookManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		E1C95C3A9A586ED4BB1E9703 /* Pods-AddressBookManager_Tests-AddressBookManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-AddressBookManager_Tests-AddressBookManager-umbrella.h"; path = "../Pods-AddressBookManager_Tests-AddressBookManager/Pods-AddressBookManager_Tests-AddressBookManager-umbrella.h"; sourceTree = "<group>"; };
+		E99CC500D66A106AD6413348 /* Pods-AddressBookManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AddressBookManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		EFEA9E5D91F96D25B2391BD2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-AddressBookManager_Tests-AddressBookManager/Info.plist"; sourceTree = "<group>"; };
+		F055EA4FD5A05C39F5DDF305 /* Pods-AddressBookManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AddressBookManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F2ED70D25015B98701D04D54 /* Pods-AddressBookManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AddressBookManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F79E0248BEA9DA657B3B2821 /* Pods-AddressBookManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AddressBookManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FB82A388F5B8852AFD82B83E /* Pods-AddressBookManager_Tests-AddressBookManager-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddressBookManager_Tests-AddressBookManager-Private.xcconfig"; path = "../Pods-AddressBookManager_Tests-AddressBookManager/Pods-AddressBookManager_Tests-AddressBookManager-Private.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1026456237B42259A6806439 /* Frameworks */ = {
+		27639F5C741518967F34A50B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41D11B84B86EF3925DC53E2B /* Foundation.framework in Frameworks */,
+				2D3AFC0CCA0472092DE8651D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1BDC125DC7205814D4128A43 /* Frameworks */ = {
+		41058490E7A313D564B64EC6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E26B1B9BECC83FE4C07785BF /* Foundation.framework in Frameworks */,
+				863CF9A611A2FCFCCD0E4FB2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		49095A13BD9DA7807F1EE90C /* Frameworks */ = {
+		46AB413331B78EC3793C7440 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30F77556A39BEB2220D5B4E7 /* Foundation.framework in Frameworks */,
+				EAE833DB0FC8BCA82181FF22 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9F698A4AD1166AC8988987E7 /* Frameworks */ = {
+		913BC869B7E07DB4115FAE57 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AC796DC262FC717E06B47B0 /* Foundation.framework in Frameworks */,
+				583A28F8B4A8BC40EE30B31E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		13AFA0363BF89B20890C9019 = {
+		2B1CC08562DD32442116398E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				CADDED4053E947E46C099781 /* Podfile */,
-				B5EDF07786A00C8D3224D01E /* Development Pods */,
-				4FF455567DD6612897A1FB14 /* Frameworks */,
-				DC9E94A73136B5176D755B34 /* Products */,
-				CCE159BC871ECA36A5DCC550 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		4FF455567DD6612897A1FB14 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				743BDBDDE0AB1E00D569563A /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		6635FF41F3042A258399EF3C /* Pods-AddressBookManager_Example */ = {
-			isa = PBXGroup;
-			children = (
-				CE94F761BA05672D338170E7 /* Info.plist */,
-				8139DCDB11525E4C28757A26 /* Pods-AddressBookManager_Example.modulemap */,
-				DA8A1337576D7ED5771ED37A /* Pods-AddressBookManager_Example-acknowledgements.markdown */,
-				F3779B1D5729D0D2DFADD921 /* Pods-AddressBookManager_Example-acknowledgements.plist */,
-				96AC2A4D4112FB515A7A841F /* Pods-AddressBookManager_Example-dummy.m */,
-				A392F4EDDD6103AA9377F99B /* Pods-AddressBookManager_Example-environment.h */,
-				BA4BD174671094B1CF7C48C2 /* Pods-AddressBookManager_Example-frameworks.sh */,
-				4F3EB99516CA764AEB76DF75 /* Pods-AddressBookManager_Example-resources.sh */,
-				5DC9F426CF6643C87FBFD888 /* Pods-AddressBookManager_Example-umbrella.h */,
-				73297B558C79EA93E082E6C8 /* Pods-AddressBookManager_Example.debug.xcconfig */,
-				6D3FFFBE188E3787867B3A57 /* Pods-AddressBookManager_Example.release.xcconfig */,
-			);
-			name = "Pods-AddressBookManager_Example";
-			path = "Target Support Files/Pods-AddressBookManager_Example";
-			sourceTree = "<group>";
-		};
-		743BDBDDE0AB1E00D569563A /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				1AF1DD84D56B596CE9E3D28C /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		763E51D7549D05D6F19343BD /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				FF1951E350687A20708D1B6A /* AddressBookManager.swift */,
-				E4332E0FE382AA9AC9F9F893 /* AddressBookPerson.swift */,
-				1602D4097819F718E71C9E48 /* AddressBookPropertyManager.swift */,
-				4B4948BDBB270EB344F3D742 /* AddressBookRecord.swift */,
+				C8795D7670FB4AA2133DDCDC /* AddressBookManager.swift */,
+				4E0E1A4F204311AB179C8FA6 /* AddressBookPerson.swift */,
+				72FCF6B3DC52591F6569FB37 /* AddressBookPropertyManager.swift */,
+				2EEDE487B8B37AC3DD770D3B /* AddressBookRecord.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		7B185D91457E4C717DFA6B3B /* Support Files */ = {
+		3B995D2D1FFC70847DAD1EAE /* Pods-AddressBookManager_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				0B86DF1532D47D371458723C /* Info.plist */,
-				43B81B38FD9A8E2CC3C446F5 /* Info.plist */,
-				63A71E1B6A534EC4FB93C098 /* Pods-AddressBookManager_Example-AddressBookManager.modulemap */,
-				21F0CB24EF6783A3CA95E98F /* Pods-AddressBookManager_Example-AddressBookManager.xcconfig */,
-				AA15463F4B8C360D98888F6C /* Pods-AddressBookManager_Example-AddressBookManager-Private.xcconfig */,
-				2F83461C415C41C2A6D9CA24 /* Pods-AddressBookManager_Example-AddressBookManager-dummy.m */,
-				693926BD5FCCC53BFBF474F8 /* Pods-AddressBookManager_Example-AddressBookManager-prefix.pch */,
-				5230855C42B09A3EFAF90039 /* Pods-AddressBookManager_Example-AddressBookManager-umbrella.h */,
-				70B34E40E61D66CE23EFBAF0 /* Pods-AddressBookManager_Tests-AddressBookManager.modulemap */,
-				9722FDBAB79066DD1F590247 /* Pods-AddressBookManager_Tests-AddressBookManager.xcconfig */,
-				780955484401FCB4FDB76B86 /* Pods-AddressBookManager_Tests-AddressBookManager-Private.xcconfig */,
-				BEBD2EEE3FDE9B66B8BF1D96 /* Pods-AddressBookManager_Tests-AddressBookManager-dummy.m */,
-				1A753C735DFAE016EDC89634 /* Pods-AddressBookManager_Tests-AddressBookManager-prefix.pch */,
-				437BAAA7F9A075C821D1C073 /* Pods-AddressBookManager_Tests-AddressBookManager-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Pods-AddressBookManager_Example-AddressBookManager";
-			sourceTree = "<group>";
-		};
-		8B6E7D1FE3D92573EC91B300 /* Pods-AddressBookManager_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				3E8A2A3FB737B4386740E0E6 /* Info.plist */,
-				FFCB524C2BB08D0790F5A7D5 /* Pods-AddressBookManager_Tests.modulemap */,
-				D30D42078E1501C606C90942 /* Pods-AddressBookManager_Tests-acknowledgements.markdown */,
-				599C9BE9928BEBFC744AF24B /* Pods-AddressBookManager_Tests-acknowledgements.plist */,
-				2D2EDC4AAA64C2B333594729 /* Pods-AddressBookManager_Tests-dummy.m */,
-				622CB9111950A23136400F1D /* Pods-AddressBookManager_Tests-environment.h */,
-				A8886F3CEA64FB737647FBFE /* Pods-AddressBookManager_Tests-frameworks.sh */,
-				5F2F097BC515CB019D5B4FE8 /* Pods-AddressBookManager_Tests-resources.sh */,
-				2C43ABD14F3302B74ED11174 /* Pods-AddressBookManager_Tests-umbrella.h */,
-				11A3B77B58E781A8CC2AB356 /* Pods-AddressBookManager_Tests.debug.xcconfig */,
-				483F982F62A9AEE2B5D38A10 /* Pods-AddressBookManager_Tests.release.xcconfig */,
+				38E06EAC7622C3B90C97E77B /* Info.plist */,
+				09F509F88F809634032CAD8A /* Pods-AddressBookManager_Tests.modulemap */,
+				86071803A6FE00D9DC49EE18 /* Pods-AddressBookManager_Tests-acknowledgements.markdown */,
+				9A206498C74B2EECB89CC8B0 /* Pods-AddressBookManager_Tests-acknowledgements.plist */,
+				4CA90B6758B551F3F1501ACE /* Pods-AddressBookManager_Tests-dummy.m */,
+				BED20A41DB363D3FCCF7434C /* Pods-AddressBookManager_Tests-environment.h */,
+				E99CC500D66A106AD6413348 /* Pods-AddressBookManager_Tests-frameworks.sh */,
+				BEC99D9E721F9F29B3E89A98 /* Pods-AddressBookManager_Tests-resources.sh */,
+				60A6C7939E509B347A8A05ED /* Pods-AddressBookManager_Tests-umbrella.h */,
+				B683E72CFB9D3300A6EF2515 /* Pods-AddressBookManager_Tests.debug.xcconfig */,
+				50D7C4F44587C733F6345121 /* Pods-AddressBookManager_Tests.release.xcconfig */,
 			);
 			name = "Pods-AddressBookManager_Tests";
 			path = "Target Support Files/Pods-AddressBookManager_Tests";
 			sourceTree = "<group>";
 		};
-		B5EDF07786A00C8D3224D01E /* Development Pods */ = {
+		771A3DAE856202D6A508A726 = {
 			isa = PBXGroup;
 			children = (
-				E73E4348EAF283AC6CBD81B5 /* AddressBookManager */,
+				B37CF970159079408A5B1A95 /* Podfile */,
+				D05311DC2B4073C101638F90 /* Development Pods */,
+				C367BC6FAD40A3774E667E0B /* Frameworks */,
+				C04213A99555D618DDC24168 /* Products */,
+				EAE8074F8CEC896D56DA6CF1 /* Targets Support Files */,
 			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		CCE159BC871ECA36A5DCC550 /* Targets Support Files */ = {
+		9902D782C4E1763C583362B9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6635FF41F3042A258399EF3C /* Pods-AddressBookManager_Example */,
-				8B6E7D1FE3D92573EC91B300 /* Pods-AddressBookManager_Tests */,
+				A6C94BC04F3E8C93A5C4962B /* Info.plist */,
+				EFEA9E5D91F96D25B2391BD2 /* Info.plist */,
+				0643A8223D93B1AD240B59C7 /* Pods-AddressBookManager_Example-AddressBookManager.modulemap */,
+				347C64976E7B097DB0F8966A /* Pods-AddressBookManager_Example-AddressBookManager.xcconfig */,
+				91C0CE55C4698CB15FEA6AFF /* Pods-AddressBookManager_Example-AddressBookManager-Private.xcconfig */,
+				1FF14B7ABD543E8DF70AD850 /* Pods-AddressBookManager_Example-AddressBookManager-dummy.m */,
+				A5198CDCF5705BB8D9F4ECD3 /* Pods-AddressBookManager_Example-AddressBookManager-prefix.pch */,
+				4F0F1B3C14B60CFA81813BDF /* Pods-AddressBookManager_Example-AddressBookManager-umbrella.h */,
+				41EE7468E1100B378103D84D /* Pods-AddressBookManager_Tests-AddressBookManager.modulemap */,
+				BA00978951CDD3F99B464715 /* Pods-AddressBookManager_Tests-AddressBookManager.xcconfig */,
+				FB82A388F5B8852AFD82B83E /* Pods-AddressBookManager_Tests-AddressBookManager-Private.xcconfig */,
+				46FCE189A34F8EEDE261DE54 /* Pods-AddressBookManager_Tests-AddressBookManager-dummy.m */,
+				12CA3FFB9CA4E6D800FD0587 /* Pods-AddressBookManager_Tests-AddressBookManager-prefix.pch */,
+				E1C95C3A9A586ED4BB1E9703 /* Pods-AddressBookManager_Tests-AddressBookManager-umbrella.h */,
 			);
-			name = "Targets Support Files";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-AddressBookManager_Example-AddressBookManager";
 			sourceTree = "<group>";
 		};
-		DC9E94A73136B5176D755B34 /* Products */ = {
+		B43C5354D9F3C5A697116FE8 /* Pods-AddressBookManager_Example */ = {
 			isa = PBXGroup;
 			children = (
-				4BE1155A9238FCD881BDA72D /* AddressBookManager.framework */,
-				2562339EBF79F4229BF9E213 /* AddressBookManager.framework */,
-				E92E61C115B7AD3C6C676703 /* Pods_AddressBookManager_Example.framework */,
-				6642377F9D2A801806F1B9AC /* Pods_AddressBookManager_Tests.framework */,
+				3AF0A9EBE503EA4A4DAFA178 /* Info.plist */,
+				238E06B56B14E4384F8267B8 /* Pods-AddressBookManager_Example.modulemap */,
+				F79E0248BEA9DA657B3B2821 /* Pods-AddressBookManager_Example-acknowledgements.markdown */,
+				42F0731C22CD597B0FE95DBE /* Pods-AddressBookManager_Example-acknowledgements.plist */,
+				686D96E7F151C51D5D9602DD /* Pods-AddressBookManager_Example-dummy.m */,
+				107F1ED303CE0BE1A941597B /* Pods-AddressBookManager_Example-environment.h */,
+				F2ED70D25015B98701D04D54 /* Pods-AddressBookManager_Example-frameworks.sh */,
+				69459E83BEC412B4C2810D56 /* Pods-AddressBookManager_Example-resources.sh */,
+				CC79DAE525C1BDC04AFD92D1 /* Pods-AddressBookManager_Example-umbrella.h */,
+				99185D3165D3892EA3BD9165 /* Pods-AddressBookManager_Example.debug.xcconfig */,
+				F055EA4FD5A05C39F5DDF305 /* Pods-AddressBookManager_Example.release.xcconfig */,
+			);
+			name = "Pods-AddressBookManager_Example";
+			path = "Target Support Files/Pods-AddressBookManager_Example";
+			sourceTree = "<group>";
+		};
+		C04213A99555D618DDC24168 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CF6A342C089613B1F1F7346 /* AddressBookManager.framework */,
+				34C97339750F29D12EA0ACF1 /* AddressBookManager.framework */,
+				74698DC460A553BF177DBCFB /* Pods_AddressBookManager_Example.framework */,
+				7703A72C2382DDF6B17569BF /* Pods_AddressBookManager_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E73E4348EAF283AC6CBD81B5 /* AddressBookManager */ = {
+		C185E0652A505118F9ACB707 /* AddressBookManager */ = {
 			isa = PBXGroup;
 			children = (
-				E7CC8156896EA9887F8FB090 /* Pod */,
-				7B185D91457E4C717DFA6B3B /* Support Files */,
+				FD0F4196DF1950C64E6A2780 /* Pod */,
+				9902D782C4E1763C583362B9 /* Support Files */,
 			);
 			name = AddressBookManager;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		E7CC8156896EA9887F8FB090 /* Pod */ = {
+		C367BC6FAD40A3774E667E0B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				763E51D7549D05D6F19343BD /* Classes */,
+				E3A0610DE79AA419AC557037 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D05311DC2B4073C101638F90 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C185E0652A505118F9ACB707 /* AddressBookManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E3A0610DE79AA419AC557037 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				65763CDB84E6E07892FFED6D /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EAE8074F8CEC896D56DA6CF1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B43C5354D9F3C5A697116FE8 /* Pods-AddressBookManager_Example */,
+				3B995D2D1FFC70847DAD1EAE /* Pods-AddressBookManager_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FD0F4196DF1950C64E6A2780 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2B1CC08562DD32442116398E /* Classes */,
 			);
 			path = Pod;
 			sourceTree = "<group>";
@@ -278,101 +278,48 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1D90F3E06276EBC4569E79F6 /* Headers */ = {
+		71E0FC928A77D5BB0F643819 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40B463787A72EC446D5489E6 /* Pods-AddressBookManager_Tests-umbrella.h in Headers */,
+				C7F69DA0D524DBCAA507A6FB /* Pods-AddressBookManager_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		59A2818BF2086723799A8634 /* Headers */ = {
+		C3C078688F77B51F189E1A12 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				319E8425CF9D3721D00273F5 /* Pods-AddressBookManager_Example-umbrella.h in Headers */,
+				4C3562A1129B5CB4FBD26889 /* Pods-AddressBookManager_Example-AddressBookManager-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6757AF5769E21FFDDA4308C6 /* Headers */ = {
+		E3AA6AB74E6D717549CC3AC3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1E1697B42685DADD87906A9 /* Pods-AddressBookManager_Example-AddressBookManager-umbrella.h in Headers */,
+				7F32768C2203E47908F20109 /* Pods-AddressBookManager_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A842EDC83C1B6A0DC0B6C54F /* Headers */ = {
+		E5EA8ED7400C99F0896E9479 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0F72437B4C9F015E99D4E9D /* Pods-AddressBookManager_Tests-AddressBookManager-umbrella.h in Headers */,
+				3295BB6D35530A598BAA2780 /* Pods-AddressBookManager_Tests-AddressBookManager-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A84CD8720030BD61C8E3BCF0 /* Pods-AddressBookManager_Tests-AddressBookManager */ = {
+		4D1B927676AD049A1AF63CC7 /* Pods-AddressBookManager_Example-AddressBookManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 93C2C67133694A0633D976CC /* Build configuration list for PBXNativeTarget "Pods-AddressBookManager_Tests-AddressBookManager" */;
+			buildConfigurationList = 2185E0D344D0BDCDA33E99F6 /* Build configuration list for PBXNativeTarget "Pods-AddressBookManager_Example-AddressBookManager" */;
 			buildPhases = (
-				E7E6046F44076BDEEA245DD6 /* Sources */,
-				9F698A4AD1166AC8988987E7 /* Frameworks */,
-				A842EDC83C1B6A0DC0B6C54F /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-AddressBookManager_Tests-AddressBookManager";
-			productName = "Pods-AddressBookManager_Tests-AddressBookManager";
-			productReference = 2562339EBF79F4229BF9E213 /* AddressBookManager.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C7FDEFB1FC823492AEB615EC /* Pods-AddressBookManager_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B6243833377A272037369CA1 /* Build configuration list for PBXNativeTarget "Pods-AddressBookManager_Example" */;
-			buildPhases = (
-				CF13C52DA65D5C85E2F36F18 /* Sources */,
-				1BDC125DC7205814D4128A43 /* Frameworks */,
-				59A2818BF2086723799A8634 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7E2930D6358FFDCA552BEC8A /* PBXTargetDependency */,
-			);
-			name = "Pods-AddressBookManager_Example";
-			productName = "Pods-AddressBookManager_Example";
-			productReference = E92E61C115B7AD3C6C676703 /* Pods_AddressBookManager_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		EAE4FC7AB06069A905C7F9D3 /* Pods-AddressBookManager_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AA727D0906C81851FF8FBB8C /* Build configuration list for PBXNativeTarget "Pods-AddressBookManager_Tests" */;
-			buildPhases = (
-				575C351A457FDD827DE7268A /* Sources */,
-				1026456237B42259A6806439 /* Frameworks */,
-				1D90F3E06276EBC4569E79F6 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1EF5010BD715713BB521388C /* PBXTargetDependency */,
-			);
-			name = "Pods-AddressBookManager_Tests";
-			productName = "Pods-AddressBookManager_Tests";
-			productReference = 6642377F9D2A801806F1B9AC /* Pods_AddressBookManager_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		FDB8BF44767CE6460D195969 /* Pods-AddressBookManager_Example-AddressBookManager */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E98A53E6ADE7107C9E20B0B8 /* Build configuration list for PBXNativeTarget "Pods-AddressBookManager_Example-AddressBookManager" */;
-			buildPhases = (
-				4C515161908B423D70344470 /* Sources */,
-				49095A13BD9DA7807F1EE90C /* Frameworks */,
-				6757AF5769E21FFDDA4308C6 /* Headers */,
+				39CA93DD144BA34AEBD0357E /* Sources */,
+				27639F5C741518967F34A50B /* Frameworks */,
+				C3C078688F77B51F189E1A12 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -380,97 +327,412 @@
 			);
 			name = "Pods-AddressBookManager_Example-AddressBookManager";
 			productName = "Pods-AddressBookManager_Example-AddressBookManager";
-			productReference = 4BE1155A9238FCD881BDA72D /* AddressBookManager.framework */;
+			productReference = 5CF6A342C089613B1F1F7346 /* AddressBookManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9552EFB4A53D5B1A650E14A0 /* Pods-AddressBookManager_Tests-AddressBookManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58EA21A692C3945DEE0C3EE4 /* Build configuration list for PBXNativeTarget "Pods-AddressBookManager_Tests-AddressBookManager" */;
+			buildPhases = (
+				0492AFA5B067526F64C3C0CF /* Sources */,
+				41058490E7A313D564B64EC6 /* Frameworks */,
+				E5EA8ED7400C99F0896E9479 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AddressBookManager_Tests-AddressBookManager";
+			productName = "Pods-AddressBookManager_Tests-AddressBookManager";
+			productReference = 34C97339750F29D12EA0ACF1 /* AddressBookManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AE40D484C57E3D6CB27624DD /* Pods-AddressBookManager_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02FB1FAEF6EFF703202896D6 /* Build configuration list for PBXNativeTarget "Pods-AddressBookManager_Example" */;
+			buildPhases = (
+				2A3EF5AFF570378DAF8CA911 /* Sources */,
+				46AB413331B78EC3793C7440 /* Frameworks */,
+				E3AA6AB74E6D717549CC3AC3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F514062722040CAF7E99961 /* PBXTargetDependency */,
+			);
+			name = "Pods-AddressBookManager_Example";
+			productName = "Pods-AddressBookManager_Example";
+			productReference = 74698DC460A553BF177DBCFB /* Pods_AddressBookManager_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F17F594766A0D75A28011FFA /* Pods-AddressBookManager_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8AA304BF931BC3D59715AB8 /* Build configuration list for PBXNativeTarget "Pods-AddressBookManager_Tests" */;
+			buildPhases = (
+				BD5AC766D6F957DD46E93B8F /* Sources */,
+				913BC869B7E07DB4115FAE57 /* Frameworks */,
+				71E0FC928A77D5BB0F643819 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6320862AA0805FE090AB4C30 /* PBXTargetDependency */,
+			);
+			name = "Pods-AddressBookManager_Tests";
+			productName = "Pods-AddressBookManager_Tests";
+			productReference = 7703A72C2382DDF6B17569BF /* Pods_AddressBookManager_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		59CBD1EFE213F7850B60963F /* Project object */ = {
+		474F8CB29F1DD6A06605F285 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = 8C586B7DD363737226BE0DDC /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = BC83B080551F3310750A7E79 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 13AFA0363BF89B20890C9019;
-			productRefGroup = DC9E94A73136B5176D755B34 /* Products */;
+			mainGroup = 771A3DAE856202D6A508A726;
+			productRefGroup = C04213A99555D618DDC24168 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C7FDEFB1FC823492AEB615EC /* Pods-AddressBookManager_Example */,
-				FDB8BF44767CE6460D195969 /* Pods-AddressBookManager_Example-AddressBookManager */,
-				EAE4FC7AB06069A905C7F9D3 /* Pods-AddressBookManager_Tests */,
-				A84CD8720030BD61C8E3BCF0 /* Pods-AddressBookManager_Tests-AddressBookManager */,
+				AE40D484C57E3D6CB27624DD /* Pods-AddressBookManager_Example */,
+				4D1B927676AD049A1AF63CC7 /* Pods-AddressBookManager_Example-AddressBookManager */,
+				F17F594766A0D75A28011FFA /* Pods-AddressBookManager_Tests */,
+				9552EFB4A53D5B1A650E14A0 /* Pods-AddressBookManager_Tests-AddressBookManager */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4C515161908B423D70344470 /* Sources */ = {
+		0492AFA5B067526F64C3C0CF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B95B085E30DFD7B943163CE6 /* AddressBookManager.swift in Sources */,
-				E5770371351C07A6C566537E /* AddressBookPerson.swift in Sources */,
-				A4DA5485DE0089F1111BBBBD /* AddressBookPropertyManager.swift in Sources */,
-				630900055E6FE2E9EB920C72 /* AddressBookRecord.swift in Sources */,
-				7EFC8A7B850A28DB0C675932 /* Pods-AddressBookManager_Example-AddressBookManager-dummy.m in Sources */,
+				71DD1E91A8C580A83DA272DA /* AddressBookManager.swift in Sources */,
+				FD0948E458D1B344F7403FD2 /* AddressBookPerson.swift in Sources */,
+				B6D6F77DDFE1786C53F9D13C /* AddressBookPropertyManager.swift in Sources */,
+				B4F51C67A0EDA3F82A7C73C9 /* AddressBookRecord.swift in Sources */,
+				46406B052CD6ACE868B5AAD3 /* Pods-AddressBookManager_Tests-AddressBookManager-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		575C351A457FDD827DE7268A /* Sources */ = {
+		2A3EF5AFF570378DAF8CA911 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC8E7890FCD485E7E21CB78C /* Pods-AddressBookManager_Tests-dummy.m in Sources */,
+				63712D44726EB41110ACAE61 /* Pods-AddressBookManager_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF13C52DA65D5C85E2F36F18 /* Sources */ = {
+		39CA93DD144BA34AEBD0357E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE58863E3F71F97B11F38646 /* Pods-AddressBookManager_Example-dummy.m in Sources */,
+				C14F2BB762B3CCCA2A87CBFF /* AddressBookManager.swift in Sources */,
+				2A852037F4646056DDC8875A /* AddressBookPerson.swift in Sources */,
+				7CF8217470AA300D76914C8B /* AddressBookPropertyManager.swift in Sources */,
+				7E921131FF310BAEA869CB99 /* AddressBookRecord.swift in Sources */,
+				74F9D527033D7507330C6324 /* Pods-AddressBookManager_Example-AddressBookManager-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E7E6046F44076BDEEA245DD6 /* Sources */ = {
+		BD5AC766D6F957DD46E93B8F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				787B87D6538F4B36BB560C05 /* AddressBookManager.swift in Sources */,
-				B7EDDAC147EF473C2FC6E0B3 /* AddressBookPerson.swift in Sources */,
-				126EFF7859A2C9B40296BBCC /* AddressBookPropertyManager.swift in Sources */,
-				6F0ECDFCAFE971DECAA5706D /* AddressBookRecord.swift in Sources */,
-				39FEC2E8E8A5E596BC85B8E5 /* Pods-AddressBookManager_Tests-AddressBookManager-dummy.m in Sources */,
+				79099C3ED9D078F72A8D50F6 /* Pods-AddressBookManager_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1EF5010BD715713BB521388C /* PBXTargetDependency */ = {
+		6320862AA0805FE090AB4C30 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-AddressBookManager_Tests-AddressBookManager";
-			target = A84CD8720030BD61C8E3BCF0 /* Pods-AddressBookManager_Tests-AddressBookManager */;
-			targetProxy = A17A48F045AB290B09C63940 /* PBXContainerItemProxy */;
+			target = 9552EFB4A53D5B1A650E14A0 /* Pods-AddressBookManager_Tests-AddressBookManager */;
+			targetProxy = 9D8772CF897CE73CFD9BA063 /* PBXContainerItemProxy */;
 		};
-		7E2930D6358FFDCA552BEC8A /* PBXTargetDependency */ = {
+		8F514062722040CAF7E99961 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-AddressBookManager_Example-AddressBookManager";
-			target = FDB8BF44767CE6460D195969 /* Pods-AddressBookManager_Example-AddressBookManager */;
-			targetProxy = EA09B0EDAF887C0B72FBB896 /* PBXContainerItemProxy */;
+			target = 4D1B927676AD049A1AF63CC7 /* Pods-AddressBookManager_Example-AddressBookManager */;
+			targetProxy = 730EA46C5034BE5DED2C61F0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		01E16026247D622552E7F558 /* Debug */ = {
+		01A983C9668E4705DABCD0F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91C0CE55C4698CB15FEA6AFF /* Pods-AddressBookManager_Example-AddressBookManager-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AddressBookManager_Example-AddressBookManager/Pods-AddressBookManager_Example-AddressBookManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-AddressBookManager_Example-AddressBookManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-AddressBookManager_Example-AddressBookManager/Pods-AddressBookManager_Example-AddressBookManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AddressBookManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		33D260D93FE09DFC9A6F1D21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99185D3165D3892EA3BD9165 /* Pods-AddressBookManager_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AddressBookManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-AddressBookManager_Example/Pods-AddressBookManager_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_AddressBookManager_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3E219A73E15C7D97A6D70BB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB82A388F5B8852AFD82B83E /* Pods-AddressBookManager_Tests-AddressBookManager-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AddressBookManager_Tests-AddressBookManager/Pods-AddressBookManager_Tests-AddressBookManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-AddressBookManager_Tests-AddressBookManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-AddressBookManager_Tests-AddressBookManager/Pods-AddressBookManager_Tests-AddressBookManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AddressBookManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		40CCF5BF41A8CBAF166B99EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB82A388F5B8852AFD82B83E /* Pods-AddressBookManager_Tests-AddressBookManager-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AddressBookManager_Tests-AddressBookManager/Pods-AddressBookManager_Tests-AddressBookManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-AddressBookManager_Tests-AddressBookManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-AddressBookManager_Tests-AddressBookManager/Pods-AddressBookManager_Tests-AddressBookManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AddressBookManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5BF4C91D0273A069193DFD04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50D7C4F44587C733F6345121 /* Pods-AddressBookManager_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AddressBookManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-AddressBookManager_Tests/Pods-AddressBookManager_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_AddressBookManager_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		75B14BF8B4A8C6BBE828809B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F055EA4FD5A05C39F5DDF305 /* Pods-AddressBookManager_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AddressBookManager_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-AddressBookManager_Example/Pods-AddressBookManager_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_AddressBookManager_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		99200F26E9AD63FC6CD65368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B683E72CFB9D3300A6EF2515 /* Pods-AddressBookManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AddressBookManager_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-AddressBookManager_Tests/Pods-AddressBookManager_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_AddressBookManager_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE9B888CEFBA9C2A6AD54BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91C0CE55C4698CB15FEA6AFF /* Pods-AddressBookManager_Example-AddressBookManager-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-AddressBookManager_Example-AddressBookManager/Pods-AddressBookManager_Example-AddressBookManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-AddressBookManager_Example-AddressBookManager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-AddressBookManager_Example-AddressBookManager/Pods-AddressBookManager_Example-AddressBookManager.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AddressBookManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D140A6CE9770394C95CA0E60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCC74A42908DB7F567150EB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -509,317 +771,55 @@
 			};
 			name = Debug;
 		};
-		2BEB7BA807A1459B707FBE1D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6D3FFFBE188E3787867B3A57 /* Pods-AddressBookManager_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-AddressBookManager_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-AddressBookManager_Example/Pods-AddressBookManager_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_AddressBookManager_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		39972607D66ED4334006831E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		53328C061C0802CC2AF104BA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 483F982F62A9AEE2B5D38A10 /* Pods-AddressBookManager_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-AddressBookManager_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-AddressBookManager_Tests/Pods-AddressBookManager_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_AddressBookManager_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7FF6FCE2947C5C0FD507DC34 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA15463F4B8C360D98888F6C /* Pods-AddressBookManager_Example-AddressBookManager-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-AddressBookManager_Example-AddressBookManager/Pods-AddressBookManager_Example-AddressBookManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-AddressBookManager_Example-AddressBookManager/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-AddressBookManager_Example-AddressBookManager/Pods-AddressBookManager_Example-AddressBookManager.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = AddressBookManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C1C56D9D5304ECEE52EBE8F8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11A3B77B58E781A8CC2AB356 /* Pods-AddressBookManager_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-AddressBookManager_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-AddressBookManager_Tests/Pods-AddressBookManager_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_AddressBookManager_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CD2349477974A3D855CCCCEC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA15463F4B8C360D98888F6C /* Pods-AddressBookManager_Example-AddressBookManager-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-AddressBookManager_Example-AddressBookManager/Pods-AddressBookManager_Example-AddressBookManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-AddressBookManager_Example-AddressBookManager/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-AddressBookManager_Example-AddressBookManager/Pods-AddressBookManager_Example-AddressBookManager.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = AddressBookManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D765DE68820F8EA37A2EB65A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 780955484401FCB4FDB76B86 /* Pods-AddressBookManager_Tests-AddressBookManager-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-AddressBookManager_Tests-AddressBookManager/Pods-AddressBookManager_Tests-AddressBookManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-AddressBookManager_Tests-AddressBookManager/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-AddressBookManager_Tests-AddressBookManager/Pods-AddressBookManager_Tests-AddressBookManager.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = AddressBookManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		DBA76FA15672B5D712D74C4E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 780955484401FCB4FDB76B86 /* Pods-AddressBookManager_Tests-AddressBookManager-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-AddressBookManager_Tests-AddressBookManager/Pods-AddressBookManager_Tests-AddressBookManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-AddressBookManager_Tests-AddressBookManager/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-AddressBookManager_Tests-AddressBookManager/Pods-AddressBookManager_Tests-AddressBookManager.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = AddressBookManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F844CA6FFE9D77F25CE39C3F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73297B558C79EA93E082E6C8 /* Pods-AddressBookManager_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-AddressBookManager_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-AddressBookManager_Example/Pods-AddressBookManager_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_AddressBookManager_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8C586B7DD363737226BE0DDC /* Build configuration list for PBXProject "Pods" */ = {
+		02FB1FAEF6EFF703202896D6 /* Build configuration list for PBXNativeTarget "Pods-AddressBookManager_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				01E16026247D622552E7F558 /* Debug */,
-				39972607D66ED4334006831E /* Release */,
+				33D260D93FE09DFC9A6F1D21 /* Debug */,
+				75B14BF8B4A8C6BBE828809B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		93C2C67133694A0633D976CC /* Build configuration list for PBXNativeTarget "Pods-AddressBookManager_Tests-AddressBookManager" */ = {
+		2185E0D344D0BDCDA33E99F6 /* Build configuration list for PBXNativeTarget "Pods-AddressBookManager_Example-AddressBookManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DBA76FA15672B5D712D74C4E /* Debug */,
-				D765DE68820F8EA37A2EB65A /* Release */,
+				BE9B888CEFBA9C2A6AD54BD8 /* Debug */,
+				01A983C9668E4705DABCD0F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA727D0906C81851FF8FBB8C /* Build configuration list for PBXNativeTarget "Pods-AddressBookManager_Tests" */ = {
+		58EA21A692C3945DEE0C3EE4 /* Build configuration list for PBXNativeTarget "Pods-AddressBookManager_Tests-AddressBookManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C1C56D9D5304ECEE52EBE8F8 /* Debug */,
-				53328C061C0802CC2AF104BA /* Release */,
+				40CCF5BF41A8CBAF166B99EB /* Debug */,
+				3E219A73E15C7D97A6D70BB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B6243833377A272037369CA1 /* Build configuration list for PBXNativeTarget "Pods-AddressBookManager_Example" */ = {
+		BC83B080551F3310750A7E79 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F844CA6FFE9D77F25CE39C3F /* Debug */,
-				2BEB7BA807A1459B707FBE1D /* Release */,
+				DCC74A42908DB7F567150EB6 /* Debug */,
+				D140A6CE9770394C95CA0E60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E98A53E6ADE7107C9E20B0B8 /* Build configuration list for PBXNativeTarget "Pods-AddressBookManager_Example-AddressBookManager" */ = {
+		C8AA304BF931BC3D59715AB8 /* Build configuration list for PBXNativeTarget "Pods-AddressBookManager_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7FF6FCE2947C5C0FD507DC34 /* Debug */,
-				CD2349477974A3D855CCCCEC /* Release */,
+				99200F26E9AD63FC6CD65368 /* Debug */,
+				5BF4C91D0273A069193DFD04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 59CBD1EFE213F7850B60963F /* Project object */;
+	rootObject = 474F8CB29F1DD6A06605F285 /* Project object */;
 }
