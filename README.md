@@ -142,7 +142,7 @@ abm.requestAuthorizationWithCompletion { (granted: Bool, error: CFError?) -> Voi
     person.middleName = "Roger"
             
     var anniversaryDate = MultiValue(id: 0, key: "anniversary", value: dateFormatter.dateFromString("02/02/2000"))
-            person.dates = [anniversaryDate]
+    person.dates = [anniversaryDate]
             
     abm?.addRecord(person)
     abm?.save()
