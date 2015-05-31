@@ -9,14 +9,31 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-##### Retrieving Contacts
-
+##### Create Instance Of AddressBookManager
 ```swift
 import AddressBookManager
 ...
 
 var abManager: AddressBookManager? = AddressBookManager()
+```
 
+##### Authorization Status
+
+```swift
+switch (AddressBookManager.getAuthorizationStatus()) {
+    case .Authorized:
+        // Authorized To Use AddressBook
+    case .Denied:
+        // Denied Access To AddressBook
+    case .Restricted:
+        // Restricted Access To AddressBook
+    case .Unknown:
+        // Access To AddressBook Unknown, Most Likely AddressBook Authorization Has Not Been Requested Yet
+```
+
+##### Retrieving Contacts
+
+```swift
 // Option 1
 abManager?.requestAuthorizationWithCompletion({ (granted: Bool, error: CFError?) -> Void in
             if (error) {
@@ -79,6 +96,39 @@ abManager?.retrieveAllContactsInQueue(dispatch_get_main_queue(),
                   // Do Something With Contacts
                 }
         })
+```
+
+##### Adding Contacts
+
+```swift
+abm.requestAuthorizationWithCompletion { (granted: Bool, error: CFError?) -> Void in
+    var person = AddressBookPerson()
+    person.firstName = "Bob"
+    person.lastName = "Smith"
+    
+    var personalEmail = MultiValue(id: 0, key: "personal", value: "bob@mail.com")
+    person.emails = [personalEmail]
+    
+    var homePhoneNumber = MultiValue(id: 0, key: "home", value: "5555555555")
+    var mobilePhoneNumber = MultiValue(id: 1, key: "mobile", value: "1234567890")
+    person.phoneNumbers = [homePhoneNumber, mobilePhoneNumber]
+    
+    person.profilePicture = UIImage(named: "bob.png")
+    
+    var homeAddress = Dictionary<AddressProperty, AnyObject>()
+    homeAddress[AddressProperty.Street] = "123 Maple Street"
+    homeAddress[AddressProperty.City] = "Miami"
+    homeAddress[AddressProperty.State] = "FL"
+    homeAddress[AddressProperty.ZipCode] = "00000"
+    homeAddress[AddressProperty.Country] = "USA"
+    
+    var homeAddressValue = MultiValue(id: 0, key: "home", value: homeAddress)
+    person.addresses = [homeAddressValue]
+    
+    abManager?.addRecord(person)
+    abManager?.save()
+}
+```
 ## Installation
 
 AddressBookManager is available through [CocoaPods](http://cocoapods.org). To install
