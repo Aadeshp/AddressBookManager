@@ -99,7 +99,6 @@ abManager?.retrieveAllContactsInQueue(dispatch_get_main_queue(),
 ```
 
 ##### Adding Contacts
-
 ```swift
 abm.requestAuthorizationWithCompletion { (granted: Bool, error: CFError?) -> Void in
     var person = AddressBookPerson()
@@ -149,6 +148,7 @@ abm.requestAuthorizationWithCompletion { (granted: Bool, error: CFError?) -> Voi
     abm?.save()
 }
 ```
+
 ## Installation
 
 AddressBookManager is available through [CocoaPods](http://cocoapods.org). To install
