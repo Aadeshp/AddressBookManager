@@ -148,6 +148,7 @@ abm.requestAuthorizationWithCompletion { (granted: Bool, error: CFError?) -> Voi
     abm?.save()
 }
 ```
+![Contact-Screenshot](https://cloud.githubusercontent.com/assets/8670066/7900550/55c84ffe-072d-11e5-8b2e-3d3dadf9f6c5.png)
 
 ## Installation
 
