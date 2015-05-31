@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_AddressBookManager_Example_AddressBookManager : NSObject
+@end
+@implementation PodsDummy_Pods_AddressBookManager_Example_AddressBookManager
+@end

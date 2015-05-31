@@ -1,0 +1,6 @@
+framework module AddressBookManager {
+  umbrella header "Pods-AddressBookManager_Tests-AddressBookManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
