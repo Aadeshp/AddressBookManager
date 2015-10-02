@@ -102,15 +102,15 @@ abManager?.retrieveAllContactsInQueue(dispatch_get_main_queue(),
 ##### Adding Contacts
 ```swift
 abm.requestAuthorizationWithCompletion { (granted: Bool, error: CFError?) -> Void in
-    var person = AddressBookPerson()
+    let person = AddressBookPerson()
     person.firstName = "Bob"
     person.lastName = "Smith"
             
-    var personalEmail = MultiValue(key: "personal", value: "bob@mail.com")
+    let personalEmail = MultiValue(key: "personal", value: "bob@mail.com")
     person.emails = [personalEmail]
             
-    var homePhoneNumber = MultiValue(key: "home", value: "5555555555")
-    var mobilePhoneNumber = MultiValue(key: "mobile", value: "1234567890")
+    let homePhoneNumber = MultiValue(key: "home", value: "5555555555")
+    let mobilePhoneNumber = MultiValue(key: "mobile", value: "1234567890")
     person.phoneNumbers = [homePhoneNumber, mobilePhoneNumber]
             
     person.profilePicture = UIImage(named: "bob.png")
@@ -122,10 +122,10 @@ abm.requestAuthorizationWithCompletion { (granted: Bool, error: CFError?) -> Voi
     homeAddress[AddressProperty.ZipCode] = "00000"
     homeAddress[AddressProperty.Country] = "USA"
             
-    var homeAddressValue = MultiValue(key: "home", value: homeAddress)
+    let homeAddressValue = MultiValue(key: "home", value: homeAddress)
     person.addresses = [homeAddressValue]
             
-    var dateFormatter: NSDateFormatter = NSDateFormatter()
+    let dateFormatter: NSDateFormatter = NSDateFormatter()
     dateFormatter.dateFormat = "MM/dd/yyyy"
     let birthday: NSDate? = dateFormatter.dateFromString("01/01/1970")
     person.birthday = birthday
@@ -135,14 +135,14 @@ abm.requestAuthorizationWithCompletion { (granted: Bool, error: CFError?) -> Voi
     person.department = "Software"
     person.note = "Some Note Here"
             
-    var personalURL = MultiValue(key: "personal", value: "https://somewebsite")
+    let personalURL = MultiValue(key: "personal", value: "https://somewebsite")
     person.urls = [personalURL]
             
     person.prefix = "Mr"
     person.suffix = "Jr"
     person.middleName = "Roger"
             
-    var anniversaryDate = MultiValue(key: "anniversary", value: dateFormatter.dateFromString("02/02/2000"))
+    let anniversaryDate = MultiValue(key: "anniversary", value: dateFormatter.dateFromString("02/02/2000"))
     person.dates = [anniversaryDate]
             
     abm?.addRecord(person)

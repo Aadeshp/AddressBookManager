@@ -31,7 +31,7 @@ class ViewController: UIViewController {
         
         abm?.requestAuthorizationWithCompletion { (granted: Bool, error: CFError?) -> Void in
             let person = AddressBookPerson()
-            person.firstName = "Bob"
+            person.firstName = "YOO"
             person.lastName = "Smith"
             
             let personalEmail = MultiValue(key: "personal", value: "bob@mail.com")
