@@ -17,7 +17,7 @@ public class AddressBookRecord: NSObject {
     /**
         Create AddressBookRecord Instance
     
-        :param: record ABRecord of the contact
+        - parameter record: ABRecord of the contact
     */
     init(record: ABRecord) {
         super.init()
