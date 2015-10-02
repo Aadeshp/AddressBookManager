@@ -14,7 +14,7 @@ import AddressBook
 
 public class AddressBookManager: NSObject {
     /// Global instance of AddressBookManager
-    public var addressBook: ABAddressBook!
+    private var addressBook: ABAddressBook!
     
     public override init() {
         super.init()
@@ -83,17 +83,17 @@ public class AddressBookManager: NSObject {
     /**
         Retrieve all contacts in user defined queue
 
-        :param: queue Queue that the completion block will run in
-        :param: sort Sorting block to sort the list of contacts
-        :param: filter Filtering block to filter the list of contacts
-        :param: completion Block that runs after all contacts are retrieved
+        - parameter queue: Queue that the completion block will run in
+        - parameter sort: Sorting block to sort the list of contacts
+        - parameter filter: Filtering block to filter the list of contacts
+        - parameter completion: Block that runs after all contacts are retrieved
     */
     public func retrieveAllContactsInQueue(
         queue: dispatch_queue_t,
         sort: ((AddressBookPerson, AddressBookPerson) -> Bool)?,
         filter: ((AddressBookPerson) -> Bool)?,
         completion: (([AddressBookPerson]?, CFError?) -> Void)?) {
-        var queue: dispatch_queue_t = dispatch_queue_create("com.addressbookmanager", nil)
+        let queue: dispatch_queue_t = dispatch_queue_create("com.addressbookmanager", nil)
         
         dispatch_async(queue) {
             self.requestAuthorizationWithCompletion(
@@ -114,7 +114,7 @@ public class AddressBookManager: NSObject {
                         }
                         
                         if (sort != nil) {
-                            peopleArray?.sort(sort!)
+                            peopleArray?.sortInPlace(sort!)
                         }
                     }
                     
@@ -129,7 +129,7 @@ public class AddressBookManager: NSObject {
     /**
         Requests authorization to access address book
     
-        :param: completion Block that executes after requesting access for address book
+        - parameter completion: Block that executes after requesting access for address book
     */
     public func requestAuthorizationWithCompletion(completion: (Bool, CFError?) -> Void) {
         ABAddressBookRequestAccessWithCompletion(self.addressBook, completion)
@@ -138,9 +138,9 @@ public class AddressBookManager: NSObject {
     /**
         Add record to address book
     
-        :param: record Record that is to be added to the address book
+        - parameter record: Record that is to be added to the address book
     
-        :returns: Error, if one occurs while adding the record
+        - returns: Error, if one occurs while adding the record
     */
     public func addRecord(record: AddressBookRecord) -> CFError? {
         var error: Unmanaged<CFError>? = nil
@@ -152,9 +152,9 @@ public class AddressBookManager: NSObject {
     /**
         Removes record from address book
     
-        :param: record Record that is to be removed from the address book
+        - parameter record: Record that is to be removed from the address book
     
-        :returns: Error, if one occurs while removing the record
+        - returns: Error, if one occurs while removing the record
     */
     public func removeRecord(record: AddressBookRecord) -> CFError? {
         var error: Unmanaged<CFError>? = nil
@@ -166,7 +166,7 @@ public class AddressBookManager: NSObject {
     /**
         Saves address book and adds applies changes/additions to the actual address book
     
-        :returns: Error, if one occurs while saving the address book
+        - returns: Error, if one occurs while saving the address book
     */
     public func save() -> CFError? {
         var error: Unmanaged<CFError>? = nil
@@ -178,14 +178,14 @@ public class AddressBookManager: NSObject {
     /**
         Checks if address book has any unsaved changes/additions
     
-        :returns: If address book has any unsaved changes
+        - returns: If address book has any unsaved changes
     */
     public func hasUnsavedChanges() -> Bool {
         return ABAddressBookHasUnsavedChanges(self.addressBook)
     }
     
     /**
-        :returns: Current authorization status for address book
+        - returns: Current authorization status for address book
     */
     public class func getAuthorizationStatus() -> AddressBookAuthorizationStatus {
         switch (ABAddressBookGetAuthorizationStatus()) {
