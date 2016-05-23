@@ -21,13 +21,13 @@ var abManager: AddressBookManager? = AddressBookManager()
 
 ```swift
 switch (AddressBookManager.getAuthorizationStatus()) {
-    case .Authorized:
+    case .Authorized: break
         // Authorized To Use AddressBook
-    case .Denied:
+    case .Denied: break
         // Denied Access To AddressBook
-    case .Restricted:
+    case .Restricted: break
         // Restricted Access To AddressBook
-    case .Unknown:
+    case .Unknown: break
         // Access To AddressBook Unknown, Most Likely AddressBook Authorization Has Not Been Requested Yet
 }
 ```
