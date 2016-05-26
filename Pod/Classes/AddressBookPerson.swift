@@ -355,7 +355,9 @@ public class AddressBookPerson: AddressBookRecord {
         :returns: Array of converted records to AddressBookPerson
     */
     class func convertToSelf(records: CFArray?) -> [AddressBookPerson]? {
-        return (records as? [ABRecord])?.map {(record: ABRecord) -> AddressBookPerson in
+        let arr = records as NSArray?
+        
+        return (arr as? [ABRecord])?.map {(record: ABRecord) -> AddressBookPerson in
             return AddressBookPerson(record: record)
         }
     }

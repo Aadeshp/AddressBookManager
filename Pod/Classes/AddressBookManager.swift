@@ -15,6 +15,7 @@ import AddressBook
 public class AddressBookManager: NSObject {
     /// Global instance of AddressBookManager
     public var addressBook: ABAddressBook!
+    private let queue = dispatch_queue_create("com.addressbookmanager", nil)
     
     public override init() {
         super.init()
@@ -44,8 +45,13 @@ public class AddressBookManager: NSObject {
     /// Returns all contacts as an array of AddressBookPerson instances
     public var allContacts: [AddressBookPerson]? {
         get {
+            print(ABAddressBookCopyArrayOfAllPeople(self.addressBook)?.takeRetainedValue())
             return AddressBookPerson.convertToSelf(ABAddressBookCopyArrayOfAllPeople(self.addressBook)?.takeRetainedValue())
         }
+    }
+    
+    public func retrieveAllContacts(completion: (([AddressBookPerson]?, CFError?) -> Void)?) {
+        self.retrieveAllContactsInQueue(self.queue, completion: completion)
     }
     
     public func retrieveAllContactsInQueue(
@@ -93,7 +99,6 @@ public class AddressBookManager: NSObject {
         sort: ((AddressBookPerson, AddressBookPerson) -> Bool)?,
         filter: ((AddressBookPerson) -> Bool)?,
         completion: (([AddressBookPerson]?, CFError?) -> Void)?) {
-        var queue: dispatch_queue_t = dispatch_queue_create("com.addressbookmanager", nil)
         
         dispatch_async(queue) {
             self.requestAuthorizationWithCompletion(
@@ -114,7 +119,7 @@ public class AddressBookManager: NSObject {
                         }
                         
                         if (sort != nil) {
-                            peopleArray?.sort(sort!)
+                            peopleArray = peopleArray?.sort(sort!)
                         }
                     }
                     
