@@ -52,6 +52,10 @@ public class AddressBookPerson: AddressBookRecord {
         }
     }
     
+    public var compositeName: String? {
+        return ABRecordCopyCompositeName(self.record).takeRetainedValue() as String
+    }
+    
     public var emails: Array<MultiValue<String>>? {
         get {
             return self.getMultiValueProperty(kABPersonEmailProperty)
@@ -138,7 +142,8 @@ public class AddressBookPerson: AddressBookRecord {
         }
         
         set {
-            let imageData: NSData = UIImagePNGRepresentation(newValue)
+            guard let val = newValue else { return }
+            guard let imageData: NSData = UIImagePNGRepresentation(val) else { return }
             ABPersonSetImageData(self.record, imageData, nil)
         }
     }
@@ -249,10 +254,10 @@ public class AddressBookPerson: AddressBookRecord {
         if values != nil {
             result = []
             for value: MultiValue<Dictionary<AddressProperty, T>> in values! {
-                let dictionary = value.value
+                guard let dictionary = value.value else { continue }
                 
                 var ABAddressDictionary = Dictionary<String, AnyObject>()
-                for (key: AddressProperty, value: T) in dictionary! {
+                for (key, value) in dictionary {
                     ABAddressDictionary[key.getABAddressPropertyKey] = value
                 }
                 
@@ -339,7 +344,7 @@ public class AddressBookPerson: AddressBookRecord {
         property: ABPropertyID,
         convertor: (T) -> U) -> Array<MultiValue<Dictionary<U, V>>>?
     {
-        return AddressBookPropertyManager.getMultiValueDictionaryProperty(self.record, property: property, convertor: convertor)
+        return AddressBookPropertyManager.getMultiValueDictionaryProperty(record: self.record, property: property, convertor: convertor)
     }
     
     /**
