@@ -15,8 +15,9 @@ Pod::Spec.new do |s|
                        Swift Wrapper Class Of Apple's AddressBook Framework
 
                        Simplifies:
-                       * Retrieving Contacts
-                       * Adding Contacts
+                       * Retrieving contacts
+                       * Retrieving specific contact data
+                       * Adding contacts
                        DESC
   s.homepage         = "https://github.com/aadeshp/AddressBookManager"
 
