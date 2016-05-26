@@ -18,7 +18,7 @@ class AddressBookPropertyManager: NSObject {
     
         :returns: Error, if one occurs setting a value
     */
-    class func setSingleProperty(#record: ABRecord, property: ABPropertyID, value: AnyObject?) -> CFError? {
+    class func setSingleProperty(record record: ABRecord, property: ABPropertyID, value: AnyObject?) -> CFError? {
         var error: Unmanaged<CFError>? = nil
         
         ABRecordSetValue(record, property, value, &error)
@@ -32,7 +32,7 @@ class AddressBookPropertyManager: NSObject {
     
         :returns: Single value of the property
     */
-    class func getSingleProperty<T>(#record: ABRecord, property: ABPropertyID) -> T? {
+    class func getSingleProperty<T>(record record: ABRecord, property: ABPropertyID) -> T? {
         var propertyValue: AnyObject? = ABRecordCopyValue(record, property)?.takeRetainedValue()
         
         return propertyValue as? T
@@ -44,7 +44,7 @@ class AddressBookPropertyManager: NSObject {
         :param: property Property for which multi value is being set
         :param: values Array of MultiValue instances
     */
-    class func setMultiValueProperty<T: AnyObject>(#record: ABRecord, property: ABPropertyID, values: Array<MultiValue<T>>?) {
+    class func setMultiValueProperty<T: AnyObject>(record record: ABRecord, property: ABPropertyID, values: Array<MultiValue<T>>?) {
         var multiValueRef: ABMutableMultiValueRef = ABMultiValueCreateMutable(ABPersonGetTypeOfProperty(property)).takeRetainedValue()
         
         for m: MultiValue in values! {
@@ -61,7 +61,7 @@ class AddressBookPropertyManager: NSObject {
     
         :returns: Value of property as an array of multi value instances
     */
-    class func getMultiValueProperty<T>(#record: ABRecord, property: ABPropertyID) -> Array<MultiValue<T>>? {
+    class func getMultiValueProperty<T>(record record: ABRecord, property: ABPropertyID) -> Array<MultiValue<T>>? {
         var propertyValues: Array<MultiValue<T>>?
         let values: ABMultiValue? = self.getSingleProperty(record: record, property: property)
         
@@ -87,8 +87,8 @@ class AddressBookPropertyManager: NSObject {
     
         :returns: Value of address book property as an array of multi value dictionaries
     */
-    class func getMultiValueDictionaryProperty<T,U,V: AnyObject>(
-        record: ABRecord,
+    class func getMultiValueDictionaryProperty<T, U, V: AnyObject>(
+        record record: ABRecord,
         property: ABPropertyID,
         convertor: (T) -> U) -> Array<MultiValue<Dictionary<U, V>>>?
     {
