@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "AddressBookManager"
-  s.version          = "0.1.4"
+  s.version          = "0.1.6"
   s.summary          = "Swift Wrapper Class Of Apple's AddressBook Framework"
   s.description      = <<-DESC
                        Swift Wrapper Class Of Apple's AddressBook Framework
