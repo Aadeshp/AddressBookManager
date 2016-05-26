@@ -33,8 +33,7 @@ class AddressBookPropertyManager: NSObject {
         :returns: Single value of the property
     */
     class func getSingleProperty<T>(record record: ABRecord, property: ABPropertyID) -> T? {
-        var propertyValue: AnyObject? = ABRecordCopyValue(record, property)?.takeRetainedValue()
-        
+        let propertyValue: AnyObject? = ABRecordCopyValue(record, property)?.takeRetainedValue()
         return propertyValue as? T
     }
     
@@ -45,7 +44,7 @@ class AddressBookPropertyManager: NSObject {
         :param: values Array of MultiValue instances
     */
     class func setMultiValueProperty<T: AnyObject>(record record: ABRecord, property: ABPropertyID, values: Array<MultiValue<T>>?) {
-        var multiValueRef: ABMutableMultiValueRef = ABMultiValueCreateMutable(ABPersonGetTypeOfProperty(property)).takeRetainedValue()
+        let multiValueRef: ABMutableMultiValueRef = ABMultiValueCreateMutable(ABPersonGetTypeOfProperty(property)).takeRetainedValue()
         
         for m: MultiValue in values! {
             ABMultiValueAddValueAndLabel(multiValueRef, m.value, m.key, nil)
@@ -68,7 +67,7 @@ class AddressBookPropertyManager: NSObject {
         propertyValues = []
         for i: Int in 0..<(ABMultiValueGetCount(values)) {
             if let value: T? = ABMultiValueCopyValueAtIndex(values, i)?.takeRetainedValue() as? T {
-                let id: Int = Int(ABMultiValueGetIdentifierAtIndex(values, i))
+                let _: Int = Int(ABMultiValueGetIdentifierAtIndex(values, i))
                 let key: String? = ABMultiValueCopyLabelAtIndex(values, i).takeRetainedValue() as String
                 let multiValue: MultiValue<T> = MultiValue(key: key!, value: value)
                 
@@ -98,7 +97,7 @@ class AddressBookPropertyManager: NSObject {
         propertyValues = []
         for i: Int in 0..<(ABMultiValueGetCount(values)) {
             if let value: Dictionary<String, V>? = ABMultiValueCopyValueAtIndex(values, i).takeRetainedValue() as? Dictionary<String, V> {
-                let id: Int = Int(ABMultiValueGetIdentifierAtIndex(values, i))
+                let _: Int = Int(ABMultiValueGetIdentifierAtIndex(values, i))
                 let key: String? = ABMultiValueCopyLabelAtIndex(values, i).takeRetainedValue() as String
                 
                 var newValue = Dictionary<U, V>()
@@ -134,18 +133,18 @@ public enum AddressProperty {
     */
     init(key: String) {
         switch (key) {
-            case kABPersonAddressCityKey as! String:
-                self = .City
-            case kABPersonAddressStateKey as! String:
-                self = .State
-            case kABPersonAddressZIPKey as! String:
-                self = .ZipCode
-            case kABPersonAddressCountryKey as! String:
-                self = .Country
-            case kABPersonAddressCountryCodeKey as! String:
-                self = .CountryCode
-            default:
-                self = .Street
+        case String(kABPersonAddressCityKey):
+            self = .City
+        case String(kABPersonAddressStateKey):
+            self = .State
+        case String(kABPersonAddressZIPKey):
+            self = .ZipCode
+        case String(kABPersonAddressCountryKey):
+            self = .Country
+        case String(kABPersonAddressCountryCodeKey):
+            self = .CountryCode
+        default:
+            self = .Street
         }
     }
     
@@ -158,17 +157,17 @@ public enum AddressProperty {
         get {
             switch (self) {
             case .City:
-                return kABPersonAddressCityKey as! String
+                return String(kABPersonAddressCityKey)
             case .State:
-                return kABPersonAddressStateKey as! String
+                return String(kABPersonAddressStateKey)
             case .ZipCode:
-                return kABPersonAddressZIPKey as! String
+                return String(kABPersonAddressZIPKey)
             case .Country:
-                return kABPersonAddressCountryKey as! String
+                return String(kABPersonAddressCountryKey)
             case .CountryCode:
-                return kABPersonAddressCountryCodeKey as! String
+                return String(kABPersonAddressCountryCodeKey)
             default:
-                return kABPersonAddressStreetKey as! String
+                return String(kABPersonAddressStreetKey)
             }
         }
     }
